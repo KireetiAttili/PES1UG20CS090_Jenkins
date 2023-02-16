@@ -3,8 +3,8 @@ pipeline {
     stages {
       stage('Build') {
           steps {
-              sh 'g++ -o myProgram PES1UG20CS085.cpp'
-              build job: 'PES1UG20CS085-1'
+              sh 'g++ -o myProgram PES1UG20CS090.cpp'
+              build job: 'PES1UG20CS090-1'
           }
       }
       stage('Test') {
